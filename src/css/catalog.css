@@ -1,0 +1,52 @@
+.catalog-title {
+  font-weight: 500;
+  font-size: 48px;
+  line-height: 1;
+  letter-spacing: -0.02em;
+  text-align: center;
+}
+
+.catalog-card {
+  background-color: #fbfbfb;
+}
+.catalog-card-title {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.2;
+  letter-spacing: -0.04em;
+  text-transform: uppercase;
+  color: #1b414b;
+}
+.catalog-card-type {
+  font-size: 13px;
+  line-height: 1.18;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #989899;
+}
+
+.catalog-card-item {
+  font-size: 14px;
+  line-height: 1.18;
+  letter-spacing: 0.03em;
+  color: #040306;
+}
+.catalog-card-label {
+  text-transform: uppercase;
+  color: #989899;
+}
+
+.catalog-btn {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 1.1;
+  letter-spacing: -0.02em;
+  color: #fbfbfb;
+  background-color: transparent;
+}
+
+.catalog-btn:hover,
+.catalog-btn:focus {
+  color: #1b414b;
+  background-color: #fbfbfb;
+}

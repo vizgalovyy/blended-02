@@ -1,0 +1,17 @@
+.about-list {
+  background-color: #1b414b;
+}
+
+.about-count {
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 1;
+  letter-spacing: -0.05em;
+}
+
+.about-text {
+  font-size: 13px;
+  line-height: 1.15;
+  letter-spacing: -0.02em;
+  color: #b4b7ba;
+}
