@@ -1,12 +1,25 @@
+.catalog-section {
+  padding: 150px 0;
+}
 .catalog-title {
+  max-width: 714px;
   font-weight: 500;
   font-size: 48px;
   line-height: 1;
   letter-spacing: -0.02em;
   text-align: center;
+  margin: 0 234px 75px;
 }
 
+.catalog-list {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-direction: row;
+  gap: 25px;
+}
 .catalog-card {
+  width: calc((100% - 50px) / 3);
   background-color: #fbfbfb;
 }
 .catalog-card-title {
