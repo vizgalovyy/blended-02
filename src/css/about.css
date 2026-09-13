@@ -1,5 +1,11 @@
 .about-list {
   background-color: #1b414b;
+  border-radius: 24px;
+  display: flex;
+  flex-wrap: wrap;
+  width: 716px;
+  padding: 90px 50px;
+  row-gap: 44px;
 }
 
 .about-count {
@@ -14,4 +20,46 @@
   line-height: 1.15;
   letter-spacing: -0.02em;
   color: #b4b7ba;
+}
+
+.about-count::after {
+  content: '';
+  width: 100%;
+  display: block;
+  width: 100%;
+  background-color: rgba(251, 251, 251, 0.1);
+  border-radius: 18px;
+  height: 2px;
+  position: absolute;
+  left: 0;
+  bottom: 0; 
+}
+
+.about-content {
+  display: flex;
+  gap: 32px;
+  flex-direction: row;
+  align-items: flex-start;
+}
+
+.sr-only {
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  border: 0;
+  padding: 0;
+  clip: rect(0 0 0 0);
+  clip-path: inset(100%);
+  margin: -1px;
+}
+
+.about-image {
+  border-radius: 24px;
+}
+
+.about-item {
+  position: relative;
+  width: calc((100% - 44px) / 2);
 }
